@@ -10,7 +10,6 @@ if ($mysqli->connect_errno)
 }
 else
 {
-	$query = "SELECT * FROM Users WHERE user_id='$user_name';";
 	if (empty($user_content))
 	{
 		echo "No content in post!";
